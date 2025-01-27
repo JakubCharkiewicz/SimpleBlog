@@ -127,3 +127,8 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
 LOGIN_REDIRECT_URL = 'blog-home'
 LOGIN_URL = 'login'
+
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 1025
+EMAIL_USE_SSL = False
+EMAIL_USE_TLS = False
